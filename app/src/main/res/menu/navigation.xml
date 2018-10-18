@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_createroutes"
+        android:icon="@drawable/create_route"
+        android:title="@string/create_route" />
+
+    <item
+        android:id="@+id/bottom_addroutes"
+        android:icon="@drawable/add_route"
+        android:title="@string/bottom_addroute" />
+
+    <item
+        android:id="@+id/bottom_modifyroutes"
+        android:icon="@drawable/modify_route"
+        android:title="@string/modify_route" />
+
+</menu>

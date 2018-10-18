@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">ManagementTransport</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_route_no">Enter Route No</string>
+    <string name="enter_bus_no">Enter Bus No</string>
+    <string name="enter_the_route_no">Enter the Route No</string>
+    <string name="enter_the_bus_no">Enter the Bus No</string>
+    <string name="enter_the_bus_seating">Enter the Total Seating</string>
+    <string name="enter_the_bus_name">Enter the Bus Name</string>
+    <string name="enter_the_starting_point">Enter the Starting Point</string>
+    <string name="enter_the_destination_name">Enter the Destination Name</string>
+    <string name="enter_the_driver_name">Enter the Driver Name</string>
+    <string name="enter_the_assistant_name">Enter the Assistant Name</string>
+    <string name="enter_the_caretaker_name">Enter the Caretaker Name</string>
+    <string name="enter_the_driver_mob_no">Enter the Driver Mob No</string>
+    <string name="enter_the_transport_manager_no">Enter the Transport Manager No</string>
+    <string name="enter_the_transport_manager_mob_no">Enter the Transport Manager Mob No</string>
+    <string name="enter_the_tranpsort_manager_name">Enter the Tranpsort Manager Name</string>
+    <string name="enter_the_gps_details">Enter the Gps Details</string>
+    <string name="enter_the_stop_approx_distance">Enter the Stop Approx Distance</string>
+    <string name="enter_the_approx_time">Enter the Approx Time</string>
+    <string name="enter_the_stop_count">Enter the Stop Count</string>
+    <string name="add">Add</string>
+    <string name="add_your_stops_here">Add your stops here</string>
+    <string name="submit">Submit</string>
+    <string name="enter_the_stop_name_to_modify">Enter the Stop Name to Modify</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="enter_place">Enter your place here</string>
+    <string name="enter_the_stop_name">Enter the Stop Name</string>
+    <string name="stop_distance">Enter the Stop Distance</string>
+    <string name="enter_the_stop_approx_time">Enter the Stop Approx Time</string>
+    <string name="add_route">Add Route</string>
+    <string name="bottom_addroute">Add Route</string>
+    <string name="title_activity_bottom_bar_page">PMTransport</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="create_route">Create Route</string>
+    <string name="modify_route">Modify Route</string>
+    <string name="fetch_location">Fetch Location</string>
+</resources>

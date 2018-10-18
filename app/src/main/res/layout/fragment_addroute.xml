@@ -1,0 +1,93 @@
+
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+<LinearLayout
+        android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.varadhismartek.pathshalamanagement.Fragment.Addroute">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <AutoCompleteTextView
+            android:id="@+id/add_stop_name"
+            android:hint="@string/enter_the_stop_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:inputType="number"
+            android:id="@+id/add_stop_distance"
+            android:hint="@string/stop_distance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:inputType="number"
+            android:id="@+id/add_stop_time"
+            android:hint="@string/enter_the_stop_approx_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:background="?attr/colorAccent"
+        android:textColor="#fff"
+        android:id="@+id/add_routes"
+        android:text="@string/add_route"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+    <fragment
+        android:id="@+id/mapfragid"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    </FrameLayout>
+
+    <Button
+        android:background="?attr/colorAccent"
+        android:textColor="#fff"
+        android:id="@+id/viewstops"
+        android:text="viewstops"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:visibility="gone"
+        android:background="?attr/colorAccent"
+        android:textColor="#fff"
+        android:layout_marginTop="12dp"
+        android:id="@+id/current_location"
+        android:text="Fetch Location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/add_route_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="252dp"
+        android:layout_marginTop="10dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

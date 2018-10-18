@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "969083202279",
+    "firebase_url": "https://pathshalamanagement-4cd6f.firebaseio.com",
+    "project_id": "pathshalamanagement-4cd6f",
+    "storage_bucket": "pathshalamanagement-4cd6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969083202279:android:0e20b6269c1ea1ca",
+        "android_client_info": {
+          "package_name": "com.varadhismartek.pathshalamanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969083202279-l3lk3ns92bfmk3faq01h78i5tb1ev387.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_1Z7-OIZo2jaos-eLsqtwf8n5fSK1vsI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
